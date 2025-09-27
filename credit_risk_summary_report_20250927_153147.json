@@ -1,0 +1,51 @@
+{
+  "execution_timestamp": "2025-09-27T15:31:47.849541",
+  "dataset_info": {
+    "total_entities": 50,
+    "total_features": 36,
+    "original_risk_distribution": {
+      "Medium": "26",
+      "Low": "21",
+      "High": "3"
+    },
+    "model_prediction_distribution": {
+      "Mid": "24",
+      "Low": "19",
+      "High": "7"
+    },
+    "rule_based_distribution": {
+      "Mid": "35",
+      "Low": "15"
+    }
+  },
+  "model_performance": {
+    "best_model": "Gradient_Boosting",
+    "best_dataset": "Original",
+    "f1_macro_score": 0.95,
+    "full_dataset_accuracy": 0.933,
+    "top_features": [
+      {
+        "feature": "debt_to_equity",
+        "importance": 0.41449239647083796
+      },
+      {
+        "feature": "interest_coverage",
+        "importance": 0.30492063468547914
+      },
+      {
+        "feature": "current_ratio",
+        "importance": 0.15491116589380607
+      },
+      {
+        "feature": "quick_ratio",
+        "importance": 0.07293316271363388
+      },
+      {
+        "feature": "fx_revenue_pct",
+        "importance": 0.03573374659701388
+      }
+    ]
+  },
+  "business_rules_applied": 26,
+  "output_file": "credit_risk_assessment_final_20250927_153147.csv"
+}
