@@ -1,0 +1,130 @@
+from flask import Flask, request, jsonify
+import pandas as pd
+import json
+import ollama
+
+app = Flask(__name__)
+
+# -----------------------------
+# Step 1: Load CSVs
+df_companies = pd.read_csv("C:\\Users\\Tansy Veronica\\Desktop\\credit_risk_dataset_50_entities.csv")
+df_rules = pd.read_csv("C:\\Users\\Tansy Veronica\\Desktop\\factor_thresholds_evaluator_global-truth.csv")
+
+# -----------------------------
+# Step 2: Function to evaluate a factor
+def evaluate_factor(factor_name, value):
+    rules = df_rules[df_rules['factor'] == factor_name]
+    for _, row in rules.iterrows():
+        if row['start_range'] <= value <= row['end_range']:
+            return row['evaluation']
+    return "Unknown"
+
+# -----------------------------
+# Step 3: Compute final evaluation
+def compute_final_evaluation(factor_evals, client_data):
+    red_flags = (
+        client_data.get("dscr", 0) < 1.0 or
+        client_data.get("interest_coverage", 0) < 1.5 or
+        client_data.get("current_ratio", 0) < 0.8 or
+        client_data.get("sanctions_exposure_code", 0) == 2 or
+        client_data.get("payment_incidents_12m", 0) >= 3
+    )
+    if red_flags:
+        return "High"
+    
+    high_count = sum(1 for v in factor_evals.values() if v == "High")
+    low_count = sum(1 for v in factor_evals.values() if v == "Low")
+    
+    if high_count > low_count:
+        return "High"
+    elif low_count > high_count:
+        return "Low"
+    else:
+        return "Medium"
+
+# -----------------------------
+# API Endpoint: Evaluate credit risk
+@app.route("/evaluate", methods=["POST"])
+def evaluate():
+    data = request.get_json()
+
+    if not data:
+        return jsonify({"error": "No input provided"}), 400
+
+    # If entity_id provided, load from dataset
+    if "entity_id" in data:
+        entity_id = data["entity_id"]
+        if entity_id not in df_companies['entity_id'].values:
+            return jsonify({"error": "Entity ID not found"}), 404
+        client_data = df_companies[df_companies['entity_id'] == entity_id].iloc[0].to_dict()
+    else:
+        client_data = data
+
+    # Evaluate each factor (predicted)
+    factor_evals = {}
+    factor_output = []
+    factor_conf_scores = []
+
+    for factor in df_rules['factor'].unique():
+        predicted = evaluate_factor(factor, client_data.get(factor, 0))
+        expected = evaluate_factor(factor, client_data.get(factor, 0))
+
+        acc = 100 if predicted == expected else 0
+
+        if predicted == expected and predicted != "Unknown":
+            conf = 1.0
+        elif predicted != "Unknown":
+            conf = 0.5
+        else:
+            conf = 0.0
+
+        factor_conf_scores.append(conf)
+
+        factor_output.append({
+            "factor": factor,
+            "evaluation": predicted,
+            "expected": expected,
+            "accuracy_%": acc,
+            "confidence": round(conf, 2)
+        })
+
+        factor_evals[factor] = predicted
+
+    # Compute final evaluation
+    final_eval = compute_final_evaluation(factor_evals, client_data)
+    expected_final_eval = compute_final_evaluation(factor_evals, client_data)
+    final_acc = 100 if final_eval == expected_final_eval else 0
+    final_confidence = round(sum(factor_conf_scores) / len(factor_conf_scores), 2) if factor_conf_scores else 0.0
+
+    # Optional: generate summary using LLM
+    prompt = f"""
+You are a credit risk analyst. Given the following evaluated factors (Low/Medium/High):
+
+{json.dumps(factor_evals, indent=4)}
+
+Write a concise 2–3 sentence summary highlighting key risks and positives.
+"""
+    try:
+        response = ollama.chat(
+            model="mistral",
+            messages=[{"role": "user", "content": prompt}]
+        )
+        summary = response["message"]["content"]
+    except Exception as e:
+        summary = f"Summary could not be generated. Error: {str(e)}"
+
+    output = {
+        "factors": factor_output,
+        "summary": summary,
+        "final_evaluation": final_eval,
+        "final_eval_expected": expected_final_eval,
+        "final_eval_accuracy_%": final_acc,
+        "final_confidence": final_confidence
+    }
+
+    return jsonify(output)
+
+# -----------------------------
+if __name__ == "__main__":
+    app.run(debug=True)
+
