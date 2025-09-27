@@ -1,0 +1,1219 @@
+{
+  "portfolio_overview": {
+    "total_entities": 20,
+    "risk_distribution": {
+      "High": 3,
+      "Medium": 12,
+      "Low": 5
+    },
+    "red_flag_count": 0,
+    "red_flag_entities": []
+  },
+  "entity_assessments": {
+    "ENT001": {
+      "entity_id": "ENT001",
+      "entity_name": "Entity 001",
+      "sector": "Utilities",
+      "assessment_timestamp": "2025-09-27T19:27:11.860849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Medium"
+        }
+      ],
+      "summary": "Entity 001 operates in Utilities sector with low credit risk profile. No significant risk factors identified. Investment portfolio of 8 holdings ($29.6M) shows low risk profile.",
+      "final_evaluation": "Low",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 8,
+        "total_market_value": 29.590000000000003,
+        "avg_concentration": 12.498750000000001,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Medium",
+        "overall_investment_risk": "Low"
+      }
+    },
+    "ENT002": {
+      "entity_id": "ENT002",
+      "entity_name": "Entity 002",
+      "sector": "Industrials",
+      "assessment_timestamp": "2025-09-27T19:27:11.860849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Medium"
+        }
+      ],
+      "summary": "Entity 002 operates in Industrials sector with medium credit risk profile. 1 high-risk and 6 medium-risk factors. Investment portfolio of 7 holdings ($108.5M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 7,
+        "total_market_value": 108.55,
+        "avg_concentration": 14.284285714285716,
+        "concentration_risk": "High",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Medium",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT003": {
+      "entity_id": "ENT003",
+      "entity_name": "Entity 003",
+      "sector": "Retail",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Medium"
+        }
+      ],
+      "summary": "Entity 003 operates in Retail sector with medium credit risk profile. 1 high-risk and 6 medium-risk factors. Investment portfolio of 8 holdings ($338.2M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 8,
+        "total_market_value": 338.15999999999997,
+        "avg_concentration": 12.5,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "High",
+        "performance_risk": "Low",
+        "related_party_risk": "Medium",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT004": {
+      "entity_id": "ENT004",
+      "entity_name": "Entity 004",
+      "sector": "Financials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "High"
+        }
+      ],
+      "summary": "Entity 004 operates in Financials sector with high credit risk profile. 3 high-risk factors identified. Investment portfolio of 5 holdings ($131.9M) shows high risk profile.",
+      "final_evaluation": "High",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 5,
+        "total_market_value": 131.87,
+        "avg_concentration": 19.997999999999998,
+        "concentration_risk": "High",
+        "liquidity_risk": "High",
+        "performance_risk": "Low",
+        "related_party_risk": "High",
+        "overall_investment_risk": "High"
+      }
+    },
+    "ENT005": {
+      "entity_id": "ENT005",
+      "entity_name": "Entity 005",
+      "sector": "Materials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Low"
+        }
+      ],
+      "summary": "Entity 005 operates in Materials sector with medium credit risk profile. 1 high-risk and 5 medium-risk factors. Investment portfolio of 7 holdings ($175.0M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 7,
+        "total_market_value": 174.96,
+        "avg_concentration": 14.287142857142857,
+        "concentration_risk": "High",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Low",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT006": {
+      "entity_id": "ENT006",
+      "entity_name": "Entity 006",
+      "sector": "Industrials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Low"
+        }
+      ],
+      "summary": "Entity 006 operates in Industrials sector with medium credit risk profile. 1 high-risk and 5 medium-risk factors. Investment portfolio of 5 holdings ($289.3M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 5,
+        "total_market_value": 289.26,
+        "avg_concentration": 19.999999999999996,
+        "concentration_risk": "High",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Low",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT007": {
+      "entity_id": "ENT007",
+      "entity_name": "Entity 007",
+      "sector": "Transportation",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Low"
+        }
+      ],
+      "summary": "Entity 007 operates in Transportation sector with medium credit risk profile. 1 high-risk and 4 medium-risk factors. Investment portfolio of 6 holdings ($41.8M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 6,
+        "total_market_value": 41.76,
+        "avg_concentration": 16.666666666666668,
+        "concentration_risk": "High",
+        "liquidity_risk": "Low",
+        "performance_risk": "Low",
+        "related_party_risk": "Low",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT008": {
+      "entity_id": "ENT008",
+      "entity_name": "Entity 008",
+      "sector": "Industrials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Low"
+        }
+      ],
+      "summary": "Entity 008 operates in Industrials sector with low credit risk profile. No significant risk factors identified. Investment portfolio of 7 holdings ($307.7M) shows low risk profile.",
+      "final_evaluation": "Low",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 7,
+        "total_market_value": 307.74,
+        "avg_concentration": 14.287142857142857,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Low",
+        "overall_investment_risk": "Low"
+      }
+    },
+    "ENT009": {
+      "entity_id": "ENT009",
+      "entity_name": "Entity 009",
+      "sector": "Materials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "High"
+        }
+      ],
+      "summary": "Entity 009 operates in Materials sector with high credit risk profile. 3 high-risk factors identified. Investment portfolio of 5 holdings ($225.2M) shows high risk profile.",
+      "final_evaluation": "High",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 5,
+        "total_market_value": 225.18,
+        "avg_concentration": 20.0,
+        "concentration_risk": "High",
+        "liquidity_risk": "High",
+        "performance_risk": "Low",
+        "related_party_risk": "High",
+        "overall_investment_risk": "High"
+      }
+    },
+    "ENT010": {
+      "entity_id": "ENT010",
+      "entity_name": "Entity 010",
+      "sector": "Healthcare",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "High"
+        }
+      ],
+      "summary": "Entity 010 operates in Healthcare sector with medium credit risk profile. 2 high-risk and 5 medium-risk factors. Investment portfolio of 5 holdings ($72.8M) shows high risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 5,
+        "total_market_value": 72.77,
+        "avg_concentration": 20.002000000000002,
+        "concentration_risk": "High",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "High",
+        "overall_investment_risk": "High"
+      }
+    },
+    "ENT011": {
+      "entity_id": "ENT011",
+      "entity_name": "Entity 011",
+      "sector": "Industrials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Low"
+        }
+      ],
+      "summary": "Entity 011 operates in Industrials sector with medium credit risk profile. 2 high-risk and 4 medium-risk factors. Investment portfolio of 5 holdings ($296.3M) shows high risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 5,
+        "total_market_value": 296.34,
+        "avg_concentration": 20.0,
+        "concentration_risk": "High",
+        "liquidity_risk": "High",
+        "performance_risk": "Low",
+        "related_party_risk": "Low",
+        "overall_investment_risk": "High"
+      }
+    },
+    "ENT012": {
+      "entity_id": "ENT012",
+      "entity_name": "Entity 012",
+      "sector": "Technology",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Medium"
+        }
+      ],
+      "summary": "Entity 012 operates in Technology sector with medium credit risk profile. 1 high-risk and 6 medium-risk factors. Investment portfolio of 6 holdings ($319.0M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 6,
+        "total_market_value": 318.96,
+        "avg_concentration": 16.666666666666668,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "High",
+        "performance_risk": "Low",
+        "related_party_risk": "Medium",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT013": {
+      "entity_id": "ENT013",
+      "entity_name": "Entity 013",
+      "sector": "Financials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Low"
+        }
+      ],
+      "summary": "Entity 013 operates in Financials sector with medium credit risk profile. 1 high-risk and 5 medium-risk factors. Investment portfolio of 6 holdings ($108.7M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 6,
+        "total_market_value": 108.66,
+        "avg_concentration": 16.666666666666668,
+        "concentration_risk": "High",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Low",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT014": {
+      "entity_id": "ENT014",
+      "entity_name": "Entity 014",
+      "sector": "Consumer",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Medium"
+        }
+      ],
+      "summary": "Entity 014 operates in Consumer sector with low credit risk profile. No significant risk factors identified. Investment portfolio of 8 holdings ($337.9M) shows low risk profile.",
+      "final_evaluation": "Low",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 8,
+        "total_market_value": 337.86,
+        "avg_concentration": 12.50125,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Medium",
+        "overall_investment_risk": "Low"
+      }
+    },
+    "ENT015": {
+      "entity_id": "ENT015",
+      "entity_name": "Entity 015",
+      "sector": "Real Estate",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "High"
+        }
+      ],
+      "summary": "Entity 015 operates in Real Estate sector with high credit risk profile. 3 high-risk factors identified. Investment portfolio of 5 holdings ($155.3M) shows high risk profile.",
+      "final_evaluation": "High",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 5,
+        "total_market_value": 155.35,
+        "avg_concentration": 20.0,
+        "concentration_risk": "High",
+        "liquidity_risk": "High",
+        "performance_risk": "Low",
+        "related_party_risk": "High",
+        "overall_investment_risk": "High"
+      }
+    },
+    "ENT016": {
+      "entity_id": "ENT016",
+      "entity_name": "Entity 016",
+      "sector": "Materials",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "High"
+        }
+      ],
+      "summary": "Entity 016 operates in Materials sector with medium credit risk profile. 1 high-risk and 6 medium-risk factors. Investment portfolio of 7 holdings ($230.3M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 7,
+        "total_market_value": 230.28,
+        "avg_concentration": 14.287142857142857,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "High",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT017": {
+      "entity_id": "ENT017",
+      "entity_name": "Entity 017",
+      "sector": "Technology",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Medium"
+        }
+      ],
+      "summary": "Entity 017 operates in Technology sector with low credit risk profile. No significant risk factors identified. Investment portfolio of 7 holdings ($279.4M) shows low risk profile.",
+      "final_evaluation": "Low",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 7,
+        "total_market_value": 279.36000000000007,
+        "avg_concentration": 14.284285714285714,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "Low",
+        "performance_risk": "Low",
+        "related_party_risk": "Medium",
+        "overall_investment_risk": "Low"
+      }
+    },
+    "ENT018": {
+      "entity_id": "ENT018",
+      "entity_name": "Entity 018",
+      "sector": "Technology",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "High"
+        }
+      ],
+      "summary": "Entity 018 operates in Technology sector with medium credit risk profile. 1 high-risk and 6 medium-risk factors. Investment portfolio of 8 holdings ($141.6M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 8,
+        "total_market_value": 141.6,
+        "avg_concentration": 12.5,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "High",
+        "overall_investment_risk": "Medium"
+      }
+    },
+    "ENT019": {
+      "entity_id": "ENT019",
+      "entity_name": "Entity 019",
+      "sector": "Real Estate",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Low"
+        }
+      ],
+      "summary": "Entity 019 operates in Real Estate sector with low credit risk profile. No significant risk factors identified. Investment portfolio of 8 holdings ($272.2M) shows low risk profile.",
+      "final_evaluation": "Low",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 8,
+        "total_market_value": 272.22,
+        "avg_concentration": 12.50125,
+        "concentration_risk": "Low",
+        "liquidity_risk": "Medium",
+        "performance_risk": "Low",
+        "related_party_risk": "Low",
+        "overall_investment_risk": "Low"
+      }
+    },
+    "ENT020": {
+      "entity_id": "ENT020",
+      "entity_name": "Entity 020",
+      "sector": "Consumer",
+      "assessment_timestamp": "2025-09-27T19:27:11.861849",
+      "factors": [
+        {
+          "factor": "debt_to_equity",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "current_ratio",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "ebitda_margin",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "governance_score",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "concentration_risk",
+          "evaluation": "Medium"
+        },
+        {
+          "factor": "liquidity_risk",
+          "evaluation": "High"
+        },
+        {
+          "factor": "performance_risk",
+          "evaluation": "Low"
+        },
+        {
+          "factor": "related_party_risk",
+          "evaluation": "Medium"
+        }
+      ],
+      "summary": "Entity 020 operates in Consumer sector with medium credit risk profile. 1 high-risk and 6 medium-risk factors. Investment portfolio of 8 holdings ($342.8M) shows medium risk profile.",
+      "final_evaluation": "Medium",
+      "red_flags": [],
+      "analysis_method": "Static Rule-Based Assessment",
+      "investment_summary": {
+        "total_investments": 8,
+        "total_market_value": 342.82000000000005,
+        "avg_concentration": 12.49875,
+        "concentration_risk": "Medium",
+        "liquidity_risk": "High",
+        "performance_risk": "Low",
+        "related_party_risk": "Medium",
+        "overall_investment_risk": "Medium"
+      }
+    }
+  },
+  "smart_insights": {
+    "sector_analysis": {
+      "Utilities": {
+        "high_risk_percentage": 0.0,
+        "total_entities": 1,
+        "risk_distribution": {
+          "High": 0,
+          "Medium": 0,
+          "Low": 1
+        }
+      },
+      "Industrials": {
+        "high_risk_percentage": 0.0,
+        "total_entities": 4,
+        "risk_distribution": {
+          "High": 0,
+          "Medium": 3,
+          "Low": 1
+        }
+      },
+      "Retail": {
+        "high_risk_percentage": 0.0,
+        "total_entities": 1,
+        "risk_distribution": {
+          "High": 0,
+          "Medium": 1,
+          "Low": 0
+        }
+      },
+      "Financials": {
+        "high_risk_percentage": 50.0,
+        "total_entities": 2,
+        "risk_distribution": {
+          "High": 1,
+          "Medium": 1,
+          "Low": 0
+        }
+      },
+      "Materials": {
+        "high_risk_percentage": 33.33333333333333,
+        "total_entities": 3,
+        "risk_distribution": {
+          "High": 1,
+          "Medium": 2,
+          "Low": 0
+        }
+      },
+      "Transportation": {
+        "high_risk_percentage": 0.0,
+        "total_entities": 1,
+        "risk_distribution": {
+          "High": 0,
+          "Medium": 1,
+          "Low": 0
+        }
+      },
+      "Healthcare": {
+        "high_risk_percentage": 0.0,
+        "total_entities": 1,
+        "risk_distribution": {
+          "High": 0,
+          "Medium": 1,
+          "Low": 0
+        }
+      },
+      "Technology": {
+        "high_risk_percentage": 0.0,
+        "total_entities": 3,
+        "risk_distribution": {
+          "High": 0,
+          "Medium": 2,
+          "Low": 1
+        }
+      },
+      "Consumer": {
+        "high_risk_percentage": 0.0,
+        "total_entities": 2,
+        "risk_distribution": {
+          "High": 0,
+          "Medium": 1,
+          "Low": 1
+        }
+      },
+      "Real Estate": {
+        "high_risk_percentage": 50.0,
+        "total_entities": 2,
+        "risk_distribution": {
+          "High": 1,
+          "Medium": 0,
+          "Low": 1
+        }
+      }
+    },
+    "risk_patterns": [
+      {
+        "pattern": "High Concentration Risk",
+        "frequency": 3,
+        "affected_entities": 3,
+        "description": "Concentration Risk is a high-risk factor in 3/3 high-risk entities"
+      },
+      {
+        "pattern": "High Liquidity Risk",
+        "frequency": 3,
+        "affected_entities": 3,
+        "description": "Liquidity Risk is a high-risk factor in 3/3 high-risk entities"
+      },
+      {
+        "pattern": "High Related Party Risk",
+        "frequency": 3,
+        "affected_entities": 3,
+        "description": "Related Party Risk is a high-risk factor in 3/3 high-risk entities"
+      }
+    ],
+    "investment_insights": [
+      {
+        "insight": "High Investment Risk Concentration",
+        "entities_affected": 5,
+        "total_exposure": 881.51,
+        "description": "5 entities have high investment risk with total exposure of $881.5M"
+      }
+    ],
+    "recommendations": []
+  },
+  "generation_timestamp": "2025-09-27T19:27:11.861849",
+  "analysis_method": "Static Rule-Based with Smart Pattern Detection"
+}
