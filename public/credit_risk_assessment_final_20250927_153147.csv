@@ -1,0 +1,51 @@
+entity_id,entity_name,sector,country,ownership_type,implied_rating,risk_bucket,ebitda_margin_pct,ebit_margin_pct,debt_to_equity,interest_coverage,dscr,current_ratio,quick_ratio,revenue_usd_m,revenue_cagr_3y_pct,years_in_operation,dso_days,dpo_days,dio_days,governance_score_0_100,esg_controversies_3y,country_risk_0_100,fx_revenue_pct,collateral_coverage_pct,payment_incidents_12m,legal_disputes_open,auditor_tier,financials_audited,industry_cyclicality,hedging_policy,covenant_quality,sanctions_exposure,model_evaluation,model_confidence,rule_based_evaluation
+ENT029,Aurora Labs 128,Technology,Singapore,Private,B+,High,Mid,Mid,Mid,High,Mid,Mid,High,Mid,Mid,Low,Mid,Mid,Mid,Mid,Low,Low,Mid,Mid,Low,Low,High,Low,Mid,Low,Mid,Low,High,1,Mid
+ENT048,Nova Technologies 147,Technology,South Africa,Public,B-,High,Mid,Mid,Mid,Mid,Mid,Mid,Mid,Low,High,Low,Mid,Mid,Low,Low,Low,Mid,Mid,High,Mid,Mid,Low,Low,Mid,Low,Low,Low,High,1,Mid
+ENT038,Aurora Mining 137,Materials,Italy,State,BB-,High,Low,Low,Mid,Mid,Mid,High,High,Low,Mid,Low,Mid,Low,Mid,Mid,High,Low,Mid,Mid,Mid,Low,Low,Low,High,Low,Mid,Low,Mid,0.5,Mid
+ENT013,Ironclad Goods 112,Consumer Goods,United Kingdom,Public,BBB+,Low,Mid,Low,Low,Low,Low,Mid,Mid,Low,High,Low,Mid,Low,Low,Mid,Low,Low,Low,Mid,Low,Low,Low,Low,Mid,Mid,Mid,Low,Low,1,Low
+ENT001,Summit Technologies 100,Technology,United States,Public,A-,Low,Mid,Mid,Low,Low,Low,Mid,Mid,Low,Mid,Low,Mid,High,Low,Mid,Low,Low,Mid,Mid,Mid,Low,High,Low,Mid,Mid,Low,Mid,Low,1,Mid
+ENT006,Atlas Networks 105,Telecommunications,United States,Public,BBB+,Low,Low,Low,Low,Low,Low,Mid,Mid,Low,Low,Low,Mid,Low,Mid,Low,Mid,Low,High,Mid,Mid,Low,Low,Low,Low,Mid,High,Low,Low,1,Low
+ENT018,Summit Realty 117,Real Estate,Australia,State,A-,Low,Mid,Low,Low,Low,Low,Mid,Mid,Low,Low,Low,Mid,Low,Mid,Mid,Low,Low,Low,High,Low,Mid,High,Low,Mid,Mid,High,Low,Low,1,Low
+ENT026,Frontier Components 125,Manufacturing,United Kingdom,Public,BBB,Low,Mid,Mid,Low,Low,Low,Mid,Mid,Mid,Mid,Mid,Mid,Mid,Mid,Mid,Mid,Low,Mid,High,Mid,Mid,High,Low,High,Mid,Low,Low,Low,1,Mid
+ENT024,Keystone Energy 123,Energy,Netherlands,Public,BBB+,Low,Mid,Mid,Low,Low,Low,High,High,Low,Mid,Low,Mid,Low,High,Mid,Low,Low,Mid,Mid,Low,Low,High,Low,High,Mid,High,Low,Low,1,Mid
+ENT036,Frontier Solutions 135,Chemicals,Brazil,Public,BBB,Low,Low,Low,Low,Low,Low,Mid,High,Low,Low,Low,Low,Low,Mid,Mid,Low,Mid,Mid,High,Low,Low,High,Low,Mid,Mid,Low,Low,Low,1,Low
+ENT008,Ironclad Technologies 107,Technology,India,Public,BBB+,Low,Mid,Mid,Low,Low,Low,Mid,Low,Mid,High,Low,Low,Low,Mid,Mid,Low,Mid,High,High,Low,Low,Low,Low,Mid,Mid,Mid,Low,Mid,1,Mid
+ENT020,Summit Pharma 119,Pharmaceuticals,France,Public,A-,Low,Mid,Mid,Low,Low,Low,Mid,Mid,Low,Mid,Low,Mid,Low,Mid,Mid,Low,Low,Mid,Mid,Low,Mid,Low,Low,Low,Mid,Low,Low,Low,1,Low
+ENT042,Pioneer Stores 141,Retail,Mexico,Private,BBB,Low,Low,Low,Low,Low,Low,Mid,Mid,Low,Low,Low,Low,Mid,Mid,Mid,Low,Mid,Mid,High,Low,Low,Low,High,High,Low,Low,Low,Low,1,Low
+ENT037,Ironclad Engineering 136,Industrials,Singapore,Public,BBB,Low,Low,Low,Low,Low,Low,Mid,Mid,Low,Mid,Low,Mid,Mid,Mid,Low,Mid,Low,Low,Mid,Mid,Low,Low,Low,Mid,Mid,High,Low,Mid,0.999,Low
+ENT044,Crescent Studios 143,Media,South Africa,State,A-,Low,Low,Low,Low,Low,Low,Mid,Mid,Mid,High,Mid,Mid,Mid,Low,Mid,Low,Mid,Low,Mid,Low,Low,Low,Low,Mid,Mid,Mid,Low,Low,1,Mid
+ENT050,Stellar Consumer 149,Consumer Goods,India,Public,A-,Low,Low,Low,Low,Low,Low,High,High,Low,Low,Low,Low,Low,Mid,Mid,Low,Mid,Low,High,Mid,Low,Low,Low,Mid,Low,Mid,Low,Low,1,Low
+ENT012,Pioneer Stores 111,Retail,Germany,Public,A-,Low,Low,Low,Low,Low,Low,Mid,Mid,Low,Mid,Low,Mid,Mid,Mid,Mid,Mid,Low,Low,Mid,Low,Mid,Low,Low,High,Mid,High,Mid,Low,1,Mid
+ENT025,Stellar Mobility 124,Automotive,Turkey,Public,BBB+,Low,Mid,Low,Low,Low,Low,Mid,Mid,Low,Low,Low,High,Low,Mid,Mid,Low,Mid,Mid,Mid,Mid,Mid,High,Low,High,Mid,Mid,Low,Low,1,Mid
+ENT031,Evergreen Works 130,Manufacturing,Turkey,Public,A-,Low,Low,Low,Low,Low,Low,Mid,Mid,Mid,Mid,Low,Mid,Low,High,Low,Low,High,Low,High,Mid,Low,Low,Low,High,Mid,Mid,Low,Low,1,Low
+ENT047,Ironclad Labs 146,Technology,Germany,Private,BBB+,Low,Mid,Low,Low,Low,Low,Mid,Mid,Low,Low,Mid,Low,Low,Mid,Mid,Low,Low,Mid,Mid,Mid,Low,Low,Low,Mid,Low,High,Low,Low,1,Low
+ENT017,Quantum Brands 116,Consumer Goods,China,Private,A-,Low,Mid,Mid,Low,Low,Low,High,High,Mid,Mid,Low,Mid,High,Mid,Mid,Low,Mid,Low,High,Mid,Mid,High,Low,Mid,Mid,Mid,Low,Low,1,Mid
+ENT019,Crescent Properties 118,Real Estate,Brazil,Public,BBB,Low,Mid,Mid,Low,Low,Low,Mid,Mid,Low,Low,Low,Mid,Low,Mid,Mid,Low,Mid,Mid,Mid,Low,Mid,High,Low,Mid,Low,High,Low,Low,1,Mid
+ENT032,Zenith Technologies 131,Technology,Canada,Public,A-,Low,Mid,Mid,Low,Mid,Low,High,High,Low,Low,Low,Low,Low,Mid,Low,Low,Low,Mid,Mid,Low,Low,Low,Low,Mid,Low,High,Low,Mid,1,Low
+ENT011,BlueRiver Freight 110,Transportation,Turkey,Public,A-,Low,Low,Low,Low,Low,Low,Mid,Mid,Low,Low,Low,High,Mid,Mid,Mid,Low,Mid,Low,Low,Low,Low,Low,Low,High,Mid,High,Low,Low,1,Low
+ENT002,Frontier Health 101,Healthcare,United Kingdom,Public,BB,Medium,Mid,Mid,Low,Mid,Low,Mid,High,High,Low,Mid,Low,Low,Mid,Mid,Low,Low,Mid,High,Low,Low,Low,Low,Low,Mid,High,Low,Mid,1,Mid
+ENT007,Nimbus Realty 106,Real Estate,United Arab Emirates,Public,BB+,Medium,Mid,Mid,Low,Mid,Low,Mid,Mid,Low,Low,Low,Mid,Mid,Mid,Mid,Mid,Mid,Low,Mid,Low,Low,High,High,Mid,Mid,Mid,Low,Mid,1,Mid
+ENT045,Helios Systems 144,Technology,United Kingdom,Private,BB+,Medium,Mid,Mid,Mid,Low,Low,Mid,High,Low,Mid,Low,Low,Low,Mid,Low,Low,Mid,Mid,High,Low,Low,Low,Low,Mid,Low,High,Low,Mid,1,Low
+ENT021,Helios Networks 120,Telecommunications,Saudi Arabia,Private,BB+,Medium,Low,Low,Low,Low,Low,Mid,Mid,Low,High,Low,Mid,Mid,Mid,Mid,Mid,Low,Mid,Mid,Mid,Low,Low,Low,Low,Mid,High,Low,Mid,1,Mid
+ENT003,Apex Chemicals 102,Chemicals,Germany,Private,BBB-,Medium,Low,Low,Mid,Mid,Low,Mid,Mid,Low,High,Low,Mid,Low,Mid,Mid,Low,Low,Low,Mid,Low,Mid,High,Low,Mid,Low,Mid,Low,Mid,1,Mid
+ENT030,Atlas MedTech 129,Healthcare,Canada,Private,BB,Medium,Low,Low,Low,Mid,Low,Mid,Mid,Low,Low,Low,Mid,Mid,Mid,Mid,Low,Low,Low,High,Low,Low,Low,Low,Low,Mid,High,Low,Mid,1,Low
+ENT039,Orion Goods 138,Consumer Goods,South Africa,Public,BBB-,Medium,Mid,Mid,Low,Low,Low,Mid,Low,Low,Mid,Low,Low,Low,Low,Mid,Mid,Mid,Mid,Mid,Mid,Low,Low,Low,Mid,Mid,High,Low,Mid,1,Mid
+ENT015,Keystone Networks 114,Telecommunications,India,Public,BBB-,Medium,Mid,Mid,Low,Mid,Low,Mid,Low,Low,Low,Low,Mid,Mid,Low,Mid,Mid,Mid,High,Mid,Low,Low,Low,Low,Low,Low,High,Low,Mid,1,Low
+ENT043,Frontier Media 142,Media,Brazil,Public,BB,Medium,Mid,Mid,Low,Mid,Low,Mid,Mid,Mid,Mid,Low,Low,Low,Mid,High,Mid,Mid,High,Mid,Mid,Low,High,Low,Mid,Mid,Mid,Low,Mid,1,Mid
+ENT014,BlueRiver Mining 113,Materials,Japan,State,BBB-,Medium,Low,Low,Low,Mid,Low,Mid,Mid,Low,Mid,Mid,Mid,Low,Mid,Mid,Mid,Low,Mid,Mid,Mid,Low,High,Low,High,Mid,Mid,Low,High,0.349,Mid
+ENT040,Pioneer Brands 139,Consumer Goods,Saudi Arabia,Private,BBB-,Medium,Low,Low,Mid,Low,Low,Mid,Mid,Low,High,Low,Mid,Low,Mid,Mid,Mid,Low,Low,High,Mid,Low,Low,Low,Mid,Mid,Mid,Low,Mid,1,Mid
+ENT004,Keystone Brands 103,Consumer Goods,Mexico,Public,BB,Medium,Low,Low,Mid,Low,Low,Mid,Mid,Low,High,Low,Mid,Low,Low,Mid,Low,Mid,Mid,High,Mid,Low,Low,Low,Mid,Mid,Mid,Low,Low,0.958,Mid
+ENT033,Orion Brands 132,Consumer Goods,Saudi Arabia,State,BB,Medium,Mid,Mid,Mid,Mid,Low,Mid,High,Low,High,Low,Mid,Low,Mid,Low,Low,Mid,Low,Mid,Low,Low,Low,Low,Mid,Mid,High,Low,Mid,1,Mid
+ENT028,Summit Life Sciences 127,Pharmaceuticals,United States,State,BBB-,Medium,Low,Low,Mid,Low,Low,Mid,High,Mid,High,Low,Low,Low,Mid,Mid,Low,Low,Mid,Mid,Mid,Mid,High,Low,Low,Mid,High,Low,Mid,1,Mid
+ENT034,Frontier Media 133,Media,India,Public,BBB-,Medium,Mid,Mid,Mid,Mid,Mid,Mid,High,Low,Mid,High,Mid,Mid,Mid,Mid,Low,Mid,Low,Low,Low,Mid,Low,Low,Mid,Mid,High,Low,High,0.349,Mid
+ENT023,Vertex Retail 122,Retail,Germany,Public,BB,Medium,Mid,Mid,Mid,Mid,Mid,Mid,High,Low,High,Low,Mid,Low,Mid,Mid,Mid,Low,High,Mid,Mid,Mid,High,Low,High,Mid,Mid,Mid,High,0.349,Mid
+ENT009,Summit Materials 108,Materials,Turkey,Public,BB,Medium,Mid,Mid,Mid,Mid,Low,Mid,Mid,Low,High,High,Mid,High,Mid,Low,Low,High,Low,Low,Low,Low,Low,Low,High,Mid,High,Low,Mid,1,Mid
+ENT049,Atlas Care 148,Healthcare,Netherlands,Public,BB+,Medium,Mid,Mid,Mid,Mid,Low,High,High,Low,Mid,Low,Mid,Low,Low,Mid,Mid,Low,Mid,Mid,Mid,Low,Low,Low,Low,Mid,High,Low,Mid,1,Mid
+ENT046,Quantum Solutions 145,Chemicals,Italy,Private,BB,Medium,Mid,High,Low,Mid,Mid,Mid,Mid,Mid,Low,Low,Mid,Mid,Mid,Mid,Mid,Mid,Mid,High,Low,Low,High,High,Mid,Mid,Low,Low,Mid,1,Mid
+ENT010,Vertex Therapeutics 109,Pharmaceuticals,Indonesia,Public,BBB-,Medium,Low,Low,Mid,Mid,Mid,Mid,Mid,Mid,Low,Mid,Mid,Low,Mid,Low,Low,Mid,Mid,High,Mid,Mid,Low,Low,Low,Mid,High,Low,High,0.349,Mid
+ENT041,Orion Power 140,Utilities,South Africa,Public,BB+,Medium,Mid,Mid,Mid,Mid,Mid,Mid,Mid,Low,Mid,High,Low,Low,Mid,Mid,Mid,Mid,Low,Mid,Low,Mid,Low,Low,Low,Low,Mid,Low,Mid,1,Mid
+ENT035,Atlas Studios 134,Media,Indonesia,Private,BB,Medium,Mid,Mid,Mid,Mid,Mid,Mid,Mid,High,Mid,Low,Mid,Low,Mid,Mid,Low,Mid,Low,High,Low,Low,Low,Low,Mid,Mid,Low,Low,Mid,1,Mid
+ENT022,Nimbus Metals 121,Materials,South Africa,Public,BB+,Medium,Mid,Mid,Low,Mid,Mid,Mid,High,Low,Low,Low,Mid,Low,Mid,Mid,Mid,Mid,Low,High,Low,Low,Low,Low,High,Mid,Low,Low,Mid,1,Mid
+ENT016,Stellar Goods 115,Consumer Goods,Japan,Public,BB+,Medium,High,High,Low,High,High,Mid,Low,Low,Mid,Mid,Mid,Low,Mid,Mid,Low,Low,Mid,Mid,Mid,Low,Low,Low,Mid,Mid,Low,Low,Mid,1,Mid
+ENT027,Zenith Properties 126,Real Estate,United Kingdom,Public,BBB-,Medium,Mid,High,Low,High,High,Mid,Mid,Mid,Mid,Low,Low,Low,Mid,Mid,Low,Low,Low,High,Low,Low,Low,Low,Mid,Low,High,Mid,Mid,1,Mid
+ENT005,Helios Holdings 104,Industrials,Indonesia,Public,BB+,Medium,Mid,Mid,Mid,High,High,Mid,Mid,Low,High,Low,Mid,Mid,Mid,Low,Mid,Mid,Low,Mid,Low,Low,Low,Low,Mid,Mid,Low,Low,High,0.348,Mid
